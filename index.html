@@ -12,15 +12,18 @@
     <h1 class="heading">TEMPERATURE CONVERTOR</h1>
     <div class="temp-box">
       <label for="Celsius">Celsius(&deg;C):</label>
-      <input onchange="convertTemp(event)" type="number" class="input" id="celsius" name="celsius" placeholder="Temperature-value">
+      <input onchange="convertTemp(event)" type="number" class="input" id="celsius" name="celsius" placeholder="Enter-value">
     </div>
     <div class="temp-box">
       <label for="Kelvin">Kelvin(K):</label>
-      <input onchange="convertTemp(event)" type="number" class="input" id="kelvin" name="kelvin" placeholder="Temperature-value">
+      <input onchange="convertTemp(event)" type="number" class="input" id="kelvin" name="kelvin" placeholder="Enter-value">
     </div>
     <div class="temp-box">
       <label for="Fahrenheit">Fahrenheit(&deg;F):</label>
-      <input onchange="convertTemp(event)" type="number" class="input" id="fahrenheit" name="fahrenheit" placeholder="Temperature-value">
+      <input onchange="convertTemp(event)" type="number" class="input" id="fahrenheit" name="fahrenheit" placeholder="Enter-value">
+    </div>
+    <div>
+      <button class="btn" onclick="convertTemp()">Convert</button>
     </div>
   </div>
 
